@@ -4,15 +4,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class classOne {
+public class ClassOne {
 
-    public classOne() {
+    public ClassOne() {
         System.out.println("First class");
     }
 
     public void printOne() {
-        System.out.println("First method");
+        System.out.println("First print");
+    }
 
+    public void firstMethod(){
+        System.out.println("Class One First Method");
     }
 
 }
