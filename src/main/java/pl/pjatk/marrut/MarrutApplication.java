@@ -10,4 +10,6 @@ public class MarrutApplication {
 		SpringApplication.run(MarrutApplication.class, args);
 	}
 
+
+
 }
